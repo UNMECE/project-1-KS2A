@@ -8,6 +8,6 @@ struct _capacitor
   double *current;    // current array
   double C;           // capacitance value
 };
-typedef struct _capacitor Capacitor
+typedef struct _capacitor Capacitor;
 
 #endif
